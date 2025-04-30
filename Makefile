@@ -6,7 +6,6 @@ go-files: **.go go.*
 ${GOBIN}/terraform-provider-ovh: go-files
 	go install
 
-
 build: ${GOBIN}/terraform-provider-ovh
 
 tests: go-files
