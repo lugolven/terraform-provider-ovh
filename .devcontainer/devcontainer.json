@@ -1,0 +1,19 @@
+{
+	"name": "dev",
+	"build": {
+		"dockerfile": "../Dockerfile",
+		"target": "dev"
+	},
+
+	
+	"remoteUser": "dev",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.makefile-tools",
+				"ms-azuretools.vscode-docker",
+				"golang.Go"
+			]
+		}
+	}
+}
